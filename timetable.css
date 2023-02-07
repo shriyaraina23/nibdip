@@ -1,0 +1,22 @@
+
+body{
+    text-align: center;
+	background-color: white;
+}
+.header{
+    display: inline-block;
+    margin-top: 40px;
+    border-radius: 10px;
+    /* background-color: #F5E9E2; */
+}
+.table{
+	background-color: rgb(151, 208, 208);
+    box-shadow: 20px 20px 20px  #3d7399 ;
+    margin-top: 40px;
+    margin-left: 40%;
+}
+
+.right{
+    width: 70%;
+
+}

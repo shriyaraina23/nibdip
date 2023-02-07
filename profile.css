@@ -1,0 +1,147 @@
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+body{
+    background-color: whitesmoke;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.right{
+    width: 70%;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+
+.container{
+    align-items: left;
+    margin-bottom: 200px;
+    text-align: center;
+    align-content: center; 
+    width: 70%;
+}
+.container2{
+    /* background-color: #F88DAD; */
+    text-align: center;
+    /* border-radius: 20px; */
+    /* border:5px solid #2B4162; */
+    width: 50%;
+    display: inline-block;
+    
+}
+.profile{
+    padding: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    size: 100vw;
+}
+.profile img{
+    width: 120px;
+    border: 5px solid #2B4162;
+    border-radius: 50%;
+    background-color: transparent;
+}
+.profile input{
+    width: 250px;
+    font-size: 15px;
+    padding: 5px;
+    border: 2px solid #2B4162;
+    border-radius: 5px;
+}     
+
+.profile button{
+    font-size: 15px;
+    width: 100px;
+    border: 2px solid #2B4162;
+    border-radius: 5px;
+    padding: 5px;
+    cursor: pointer;
+    transition: 0.5s;
+    background-color: teal;
+}
+
+.profile button:hover{
+    background-color: #2dc2bd99;
+    box-shadow: 4px 4px teal;
+}
+#file{
+    display: none;
+}
+#uploadBtn{
+    font-size: 15px;
+    width: 100px;
+    border: 2px solid teal;
+    border-radius: 5px;
+    padding: 5px;
+    cursor: pointer;
+    transition: 0.5s;
+    background-color: teal;
+}
+#uploadBtn:hover{
+    background-color: #2dc2bd99;
+    box-shadow: 4px 4px #888888;
+}
+
+.space{
+    width: 100%;
+}
+#files{
+    display: none;
+}
+#fileBtn{
+    border: 2px solid teal;
+    font-size: 25px;
+}
+
+.folder img{
+  margin-top: 3%;
+  width: 60px;
+  cursor: pointer;
+  transition: .5s;
+  border-radius: 10px;
+}
+.folder img:hover{
+  opacity: 0.8;
+  box-shadow: 5px 5px 10px teal;
+} 
+.fol-text p{
+  
+  font-family: Arial, Helvetica, sans-serif;
+  cursor: pointer;
+  padding: 3px;
+  display: inline-block;
+}
+.text-big{
+  font-size: 15px;
+}
+.text-small{
+  font-size: 10px;
+}
+.fol-text p::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: teal;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+.fol-text p:hover::after{
+    width: 100%;
+}
+
+.fol-text{
+    display: flex;
+    flex-direction: column;
+}
+
+.folder{
+    padding-top: 5px;
+}
+
